@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Clip;
+    src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+    }
+    body{
+      background-color:#0D0813;
+    }
+    .neon-sign{
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 60%;
+      height: 70%;
+      );
+      transform: translate(-50%, -50%);
+      letter-spacing: 2.5;
+      left: 50%;
+      top: 50%;
+      font-family: "Clip";
+      text-transform: uppercase;
+      font-size: 7em;
+      color: #f9eafb;
+    }
+    .neon-sign{
+      text-shadow: 
+      .1vw 0vw .25vw #F9EAFB, .2vw 0vw .25vw #F9EAFB, .4vw 0vw .25vw #F9EAFB, 
+      .1vw 0vw   0vw #f25757, .2vw 0vw   0vw #f25757, .4vw 0vw   0vw #F9EAFB,
+      .1vw 0vw  .1vw #F3BAF9, .2vw 0vw  .1vw #F9EAFB, .4vw 0vw  .1vw #F9EAFB,
+      .1vw 0vw   2vw #f25757, .2vw 0vw   2vw #F9EAFB, .4vw 0vw   2vw #f25757, 
+      .1vw 0vw   1vw #F9EAFB, .2vw 0vw   1vw #e50b0b, .4vw 0vw   5vw #e50b0b, 
+      .1vw 0vw   5vw #F3BAF9, .2vw 0vw  20vw #e50b0b, .4vw 0vw  10vw #e50b0b,
+      .1vw 0vw  10vw #F3BAF9, .2vw 0vw  30vw #F9EAFB, .4vw 0vw  10vw #F9BAE3;
+    }
+    .neon-wrapper{ box-shadow:
+      0 0 0.1vw  0.4vw #fff7f7,   
+      0 0 0.4vw  0.6vw #F3BAF9, 
+      0 0   4vw  0.4vw #F9EAFB,
+      inset 0 0 1.5vw  0.4vw #F3BAF9,
+      inset 0 0 0.4vw  0.2vw #F9EAFB,
+      inset 0 0 0.5vw  0.2vw #F9BAE3;
+      border-radius: 1.0rem;
+      border: 5px solid #F9EAFB;
+      padding: 100px; 
+      width: 500px;
+      height: 150px; 
+      margin: 30px 235px;
+    }
+    .neon-text {
+      padding: 0 3.5rem 0 3.5rem;
+    }
